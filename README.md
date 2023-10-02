@@ -8,7 +8,7 @@
   - [Functionality of the Computational Solution.](#funcionalidad)
 
 - [Description of program.](#description)
-- [Components](#components)
+- [Components.](#components)
 - [How it works.](#use)
 
 
@@ -63,3 +63,26 @@ Finally, in case the user wants to visualize the AVL tree, he could call the fun
 - Balancing2 function: we apply this function when we are going to remove an element from the tree. Balance2 receives a node and calls the Balance function. Then, it calls the Balance2 function of its child nodes as long as they are different from nullptr.
 
 ## How it works <a name="use"></a>
+-We are going to insert elements to our tree to see its functionality.
+
+
+
+![image](https://github.com/SRM1412000/C-Project-Binary-tree-balancing-AVL-TREE-/assets/146349622/fedfd344-e7c6-4b31-82b0-530725f4da4d)
+
+
+
+
+
+-We are also going to be able to visualize it to effectively check that it works and better understand what it does.
+
+
+![image](https://github.com/SRM1412000/C-Project-Binary-tree-balancing-AVL-TREE-/assets/146349622/7afd86f2-02a2-408e-9e4f-98d0bfdc8e20)
+
+
+
+
+
+
+-Finally we are going to remove two elements from our tree to verify its functionality.  
+![image](https://github.com/SRM1412000/C-Project-Binary-tree-balancing-AVL-TREE-/assets/146349622/bf114cf2-b948-45d1-83c6-5d154d8657c6)
+
